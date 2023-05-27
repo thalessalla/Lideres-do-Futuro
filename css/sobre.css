@@ -1,0 +1,17 @@
+.sobre {
+  background: radial-gradient(73.76% 46.48% at 53.07% 50%, #2C244A 0%, #1D192B 100%)
+}
+
+.card-sobre{
+  background: linear-gradient(180deg, #1D192B 0%, #2B2346 100%);
+box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+ width: 260px !important;
+height: 220px;
+text-align: center;
+}
+
+.card-sobre h3{
+  font-size: 20px;
+  color: #BA4BD6;
+}

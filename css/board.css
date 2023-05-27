@@ -1,0 +1,83 @@
+
+
+.item-board{
+  width: 260px;
+  height: 377px;
+  border-radius: 60px;
+}
+
+.item-board p{
+  color: white;
+}
+/* button{
+  background-color: #E1D9ED;
+  border: none;
+}  */
+
+
+
+
+
+
+
+
+
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+  box-shadow: 6px 7px 11px rgba(0, 0, 0, 0.25);
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: #1D192B;
+  border-radius: 8px;
+}
+
+.card__face--back {
+  border-radius: 8px;
+  background: #1D192B; 
+  transform: rotateY(180deg);
+}
+
+.saiba-card{
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.verso-card{
+  align-items: center;
+  display: flex;
+}
+.verso-card p{
+  margin: 20px;
+}
+
+.saiba-card::before{
+  position: absolute;
+  content: " ";
+  background-image: url("../img/decor-saiba-mais.svg");
+  width: 105px;
+  height: 11px;
+  top: 18px;
+}
+/* .card img{
+  margin-left: 30%;
+} */

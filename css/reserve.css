@@ -1,0 +1,156 @@
+ .reserve > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+.reserve h2{
+  position: relative;
+  margin-bottom: 40px;
+} 
+.reserve h2::before{
+  position: absolute;
+  content: "";
+  background-image: url("../img/Separador.svg");
+  width: 210px;
+  height: 21px;
+  top: 90px;
+  left: -60px;
+}
+
+.reserve span{
+  font-size: 2rem;
+}
+.card-reserve > p:nth-child(2) {
+font-weight: 700;
+border-top: #dfdfdf solid 2px;
+}
+.card-reserve > p:nth-child(3) {
+  font-size: 14px;
+  color: #A6A6A6;
+  margin-top: -8px;
+  }
+  .card-reserve > p:nth-child(4) {
+    font-size: 14px;
+    color: #757575;
+    margin-top: -8px !important;
+    border-bottom: #dfdfdf solid 2px;
+    padding-bottom: 10px !important;
+    }
+.reserve p {
+  color: #474747;
+}
+
+.reserve{
+  background: #E0E0E0;
+  align-items: center;
+}
+
+.card-reserve{
+  background: #F8F8F8;
+  border-radius: 10px;
+  box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+}
+.lista-treinamento{
+  border-top: #dfdfdf solid 2px;
+}
+.itens-reserve  {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  width: 120px;
+  line-height: 18px !important;
+}
+.itens-reserve img{
+  margin-bottom: 10px;
+}
+.lista-treinamento{
+  padding-top: 10px;
+}
+.lista-treinamento p {
+  position: relative;
+  margin: 4px 0;
+  margin-left: 28px;
+  font-size: 20px;
+}
+.lista-treinamento p::before{
+  content: "";
+  background-image: url("../img/check.png");
+  height: 13px;
+  width: 16px;
+  position: absolute;
+  left: -24px;
+  top: 10px;
+}
+.card-reserve > button{
+  background-color: #833A9B;
+  border: none;
+}
+.card-reserve > button:hover{
+  background-color: #9b5eaf;
+}
+
+/* ------------------------------------------------------------------------- */
+
+
+
+
+
+/* .reserve > div {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  align-items: center;
+    height: 100vh;
+}
+
+.reserve{
+  background: radial-gradient(73.76% 46.48% at 53.07% 50%, #2C244A 0%, #1D192B 100%);
+  align-items: center;
+}
+
+.card-reserve{
+  background: linear-gradient(180deg, #1D192B 0%, #2B2346 100%);
+box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+padding: 40px;
+display: flex;
+justify-content: center;
+}
+
+.card-reserve > div > p{
+  border-top: solid 1px #5C5B5B;
+  padding-left:  30px;
+  line-height: 35px; 
+  margin-bottom: 0;
+  position: relative;
+}
+
+.card-reserve > div > p:last-child {
+  border-bottom: solid 1px #5C5B5B;
+}
+
+.card-reserve > div > p::before{
+  content: "";
+  background-image: url("../img/check.png");
+  height: 13px;
+  width: 16px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.itens-reserve  {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 120px;
+}
+.itens-reserve p{
+  margin: 8px 0;
+}
+.itens-reserve img{
+  margin-top: 8px;
+} */

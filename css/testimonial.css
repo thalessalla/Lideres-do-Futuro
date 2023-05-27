@@ -1,0 +1,26 @@
+/* .accordion-item{
+  background-color: #F8F8F8 !important;
+} */
+.accordion-button{
+  background-color: #833A9B !important;
+}
+.accordion-header button{
+  color: #eaeaea !important;
+}
+.accordion-button::after{
+  filter: brightness(10);
+}
+.accordion-button:not(.collapsed)::after{
+  opacity: 10;
+}
+/* .accordiom-body{
+  color: #474747;
+} */
+
+
+.accordion-item{
+  background-color: #1D192B !important;
+}
+.accordion-item{
+  color: #F8F8F8 !important;
+}

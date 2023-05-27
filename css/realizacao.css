@@ -1,0 +1,55 @@
+.realizacao h2{
+position: relative;
+}
+
+.realizacao h2::before{
+  position: absolute;
+  content: " ";
+  background-image: url("../img/Separador.svg");
+  width: 210px;
+  height: 21px;
+  top: 100px;
+  left: -60px;
+}
+
+.grid-realizacao {
+  display: grid;
+  grid-template-columns: 220px 1fr 1fr;
+  gap: 40px
+}
+
+
+.grid-realizacao img{
+  filter: drop-shadow(6px 7px 8px rgba(0, 0, 0, 0.15));
+}
+
+
+
+.tft{
+  background-image: url("../img/fundo-tft.png");
+  margin: 0;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.tft h2{
+  position: relative;
+}
+
+.tft h2::after{
+  position: absolute;
+  content: "";
+  background-image: url("../img/Separador.svg");
+  width: 210px;
+  height: 21px;
+  top: 100px;
+  right: -60px; 
+  transform: rotateY(180deg);
+}
+.tft p{
+  max-width: 60ch;
+  text-align: right;
+  text-align: justify;
+}
+
