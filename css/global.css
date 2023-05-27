@@ -1,0 +1,41 @@
+@import "./hero.css";
+@import "./menu.css";
+@import "./board.css";
+@import "./aprender.css";
+@import "./tailor.css";
+@import "./sobre.css";
+@import "./realizacao.css";
+@import "./parceiros.css";
+@import "./reserve.css";
+@import "./testimonial.css";
+@import "./form.css";
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Syncopate&display=swap');
+
+
+
+
+.btn{
+  border-radius: 0px !important;
+  padding: 10px 64px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+
+h2{
+  font-size: 40px;
+}
+h4{
+  font-size: 16px !important;
+}
+/* h1, h2, h3, h4, h5{
+  font-size: bruno ace;
+} */
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Bruno Ace', cursive;
+}
