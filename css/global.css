@@ -1,14 +1,14 @@
-@import url("/css/hero.css");
-@import url("/css/menu.css");
-@import url("/css/board.css");
-@import url("/css/aprender.css");
-@import url("/css/tailor.css");
-@import url("/css/sobre.css");
-@import url("/css/realizacao.css");
-@import url("/css/parceiros.css");
-@import url("/css/reserve.css");
-@import url("/css/testimonial.css");
-@import url("/css/form.css");
+@import "./hero.css";
+@import "./menu.css";
+@import "./board.css";
+@import "./aprender.css";
+@import "./tailor.css";
+@import "./sobre.css";
+@import "./realizacao.css";
+@import "./parceiros.css";
+@import "./reserve.css";
+@import "./testimonial.css";
+@import "./form.css";
 
 
 

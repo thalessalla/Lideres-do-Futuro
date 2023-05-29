@@ -1,3 +1,13 @@
 .parceiros{
   background-color: #6A4CD3;
 }
+
+
+
+
+@media (max-width: 700px){
+  .parceiros div {
+    gap: 4px !important;
+    margin: 0 20px !important;
+  }
+}

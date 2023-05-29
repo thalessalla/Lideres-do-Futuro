@@ -46,10 +46,65 @@ position: relative;
   top: 100px;
   right: -60px; 
   transform: rotateY(180deg);
-}
+  overflow-x: hidden;
+} 
 .tft p{
   max-width: 60ch;
   text-align: right;
   text-align: justify;
 }
 
+
+
+
+/* -----------Responsividade------------ */
+
+
+@media (max-width: 1000px) {
+  .grid-realizacao{
+    grid-template-columns: 1fr;
+   
+  }
+  .realizacao > div {
+    margin: 0 20px !important;
+  }
+}
+
+@media (max-width: 700px){
+  .tft h2::after{
+    right: 0;
+  }
+
+
+  .grid-realizacao div:nth-child(odd){
+    display: flex; 
+   justify-content: center !important;
+  }
+  .row-cols-3 div:first-child{
+    width: 0;
+    padding: 0 !important;
+  }
+  .row-cols-3 div:nth-child(2){
+    width: 0;
+    padding: 0 !important;
+  }
+  .row-cols-3:last-child{
+    width: 100% !important;
+  }
+  .tft p{
+    max-width: 100%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+  }
+  .row-cols-3>*{
+    width: 100% !important;
+  }
+  .tft{
+    background-image: url("../img/fundo-tft-2.png");
+    background-position: right 30% top 0;
+    height: 100%;
+  }
+  .grid-realizacao div:last-child img{
+    width: 100%;
+  }
+}

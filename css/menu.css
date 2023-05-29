@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.direitos{
+  color: #898989;
+  border-top: #d1d0d0 solid 1px;
+  width: 100%;
+  text-align: center;
+}
+.header-tft {
+  background-color: #FBFBFB;
+}
+.header-tft p{
+  font-weight: 600 !important;
+  margin-bottom: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+.header-tft div:last-child{
+  border-top: #f4f4f4 solid 2px;
+  width: 20%;
+  margin: 0 auto;
+  padding: 5px;
+}
+.header-tft img{
+  filter: brightness(.7);
+}
+
+
+
+/* -----------Menu----------- */
+
+
+.navbar-brand{
+  width: 50%;
+}
 .dropdown {
   margin-left: 80px;
 }

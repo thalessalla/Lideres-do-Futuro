@@ -17,12 +17,6 @@
 
 
 
-
-
-
-
-
-
 .card {
   position: relative;
   width: 100%;
@@ -81,3 +75,31 @@
 /* .card img{
   margin-left: 30%;
 } */
+
+
+
+
+/* ---------------Responsividade-------------------- */
+
+
+@media (max-width: 1111px){
+#board > div {
+  margin: 0 80px !important;
+}
+#board h2{
+   margin: 0 20px 48px 20px !important; 
+}
+}
+
+
+@media (max-width: 703px){
+  #board > div {
+    margin: 0 20px !important;
+    justify-content: center !important;
+  }
+  .container-board-final{
+    justify-content: center !important;
+  }
+
+
+  }

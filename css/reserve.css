@@ -98,59 +98,40 @@ border-top: #dfdfdf solid 2px;
 
 
 
-/* .reserve > div {
-  display: grid;
-  grid-template-columns: 70% 1fr;
-  align-items: center;
-    height: 100vh;
+@media (max-width: 1000px) {
+  .reserve > div{
+    grid-template-columns: 1fr;
+    margin: 0 20px !important;
+  }
+  .card-reserve {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .itens-reserve{
+    width: 100%; 
+  }
+.card-reserve > div {
+font-size: 14px;
+}
+.reserve > div{
+  gap: 0;
+}
+.reserve h2{
+  margin-top: 40px;
+}
+.reserve h2::before{
+  top: 70px;
+}
+.reserve > div{
+  height: 100%;
+}
 }
 
-.reserve{
-  background: radial-gradient(73.76% 46.48% at 53.07% 50%, #2C244A 0%, #1D192B 100%);
-  align-items: center;
+@media (max-width: 420px) {
+  .card-reserve > div{
+    flex-wrap: wrap;
+  }
+  .itens-reserve{
+    width: 50%; 
+  }
 }
-
-.card-reserve{
-  background: linear-gradient(180deg, #1D192B 0%, #2B2346 100%);
-box-shadow: 6px 7px 8px rgba(0, 0, 0, 0.15);
-border-radius: 20px;
-padding: 40px;
-display: flex;
-justify-content: center;
-}
-
-.card-reserve > div > p{
-  border-top: solid 1px #5C5B5B;
-  padding-left:  30px;
-  line-height: 35px; 
-  margin-bottom: 0;
-  position: relative;
-}
-
-.card-reserve > div > p:last-child {
-  border-bottom: solid 1px #5C5B5B;
-}
-
-.card-reserve > div > p::before{
-  content: "";
-  background-image: url("../img/check.png");
-  height: 13px;
-  width: 16px;
-  position: absolute;
-  left: 0px;
-  top: 10px;
-}
-
-.itens-reserve  {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  width: 120px;
-}
-.itens-reserve p{
-  margin: 8px 0;
-}
-.itens-reserve img{
-  margin-top: 8px;
-} */

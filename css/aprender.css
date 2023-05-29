@@ -44,19 +44,24 @@
  grid-template-columns: 1fr 1fr;
 }
 
-.pra-quem-e > div > h2{
+
+.pra-quem-e h2{
   position: relative;
 }
-.pra-quem-e > div > h2::after{
+ .pra-quem-e h2::after{
   position: absolute;
   content: "";
   background-image: url("../img/Separador.svg");
   width: 210px;
   height: 21px;
-  top: 140px;
-  left: 460px;
+ top: 140px;
+right: 10px;
+  /* left: 460px;  */
   transform: rotateY(180deg);
+  overflow: hidden;
 }
+
+
 .pra-quem-e > div > h4{
   color: #E1D9ED;
 }
@@ -70,5 +75,51 @@
 .pra-quem-e > div > img {
   mix-blend-mode: lighten; 
   margin-top: 20%;
+
+}
+
+
+
+/* -------------Responsividade-------------- */
+
+
+@media (max-width: 1300px){
+.o-vai-aprender > div {
+  margin: 0 20px !important;
+}
+.separador::before{
+  left: 0;
+}
+.tailor-made > div {
+  margin: 0 20px !important;
+}
+}
+
+
+
+@media (max-width: 940px){
+  .separador::before{
+    top: 125px;
+  }
+.pra-quem-e{
+  grid-template-columns: 1fr;
+}
+.pra-quem-e img{
+  display: none;
+}
+.pra-quem-e > div > h2{
+  padding-top: 140px !important;
+}
+
+ .pra-quem-e h2::after{
+ top: 220px;
+right: 10px;
+} 
+/* .o-vai-aprender::after{
+  display: none;
+} */
+
+
+
 
 }
