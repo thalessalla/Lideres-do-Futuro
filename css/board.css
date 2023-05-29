@@ -49,6 +49,7 @@
   border-radius: 8px;
   background: #1D192B; 
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 .saiba-card{
