@@ -29,7 +29,7 @@
 }
 
 .card.is-flipped {
-  transform: translateX(-100%) rotateY(-180deg);
+  /* transform: translateX(-100%) rotateY(-180deg); */
   -webkit-transform: translateX(-100%) rotateY(-180deg);
 } 
 
@@ -65,7 +65,7 @@
  .card__face--back {
   border-radius: 8px;
   background: #1D192B; 
-  transform: rotateY(180deg);
+  /* transform: rotateY(180deg); */
   -webkit-transform: rotateY(180deg);
 } 
 
