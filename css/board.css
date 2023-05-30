@@ -75,7 +75,7 @@
 
  .card__face--back {
   border-radius: 8px;
-  background: #1D192B; 
+  background: #1D192B !important; 
   transform: rotateY(180deg);
 } 
 
