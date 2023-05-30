@@ -9,42 +9,42 @@
 .item-board p{
   color: white;
 }
-/* button{
-  background-color: #E1D9ED;
-  border: none;
-}  */
+
+
+.card{
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+.card.is-flipped {
+  -webkit-transform: rotateY(180deg);
+} 
 
 
 
 
-.card {
+
+/* .card {
   position: relative;
   width: 100%;
   height: 100%;
   cursor: pointer;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;  
-  /* transform-origin: center right; */
-  -webkit-transform-origin: center right;
+  transform-origin: center right;
   transition: transform 1s;
   box-shadow: 6px 7px 11px rgba(0, 0, 0, 0.25);
-}
-
-.card.is-flipped {
-  /* transform: translateX(-100%) rotateY(-180deg); */
-  -webkit-transform: translateX(-100%) rotateY(-180deg);
 } 
 
+.card.is-flipped {
+  -webkit-transform: translateX(-100%) rotateY(-180deg);
+} 
+*/
 
-/* .card__face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-} */
-
-.card__face{
+/* .card__face{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -53,6 +53,17 @@
   -webkit-transform: translate3d(0,0,0);
   visibility:visible;
   backface-visibility: hidden;
+} */
+
+
+
+.card__face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
 }
 
 
@@ -64,9 +75,129 @@
  .card__face--back {
   border-radius: 8px;
   background: #1D192B; 
-  /* transform: rotateY(180deg); */
   -webkit-transform: rotateY(180deg);
 } 
+
+/* ---------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.card {
+  width: 260px;
+  height: 377px;
+  border-radius: 60px;
+
+}
+
+.card__inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card__face--front {
+  background: #1D192B; 
+  align-items: center;
+  justify-content: center;
+}
+
+.card__face--front h2 {
+  color: #FFF;
+  font-size: 32px;
+}
+
+.card__face--back {
+  background: #1D192B; 
+  transform: rotateY(180deg);
+}
+ */
+
+
+
+/* ------------------------------------- */
+
+
+
+
+
+/* .card__content {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .card__header {
+  position: relative;
+  padding: 30px 30px 40px;
+} */
+
+/* .card__header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1D192B; ;
+  z-index: -1;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+
+
+
+
+
+
 
 
 .saiba-card{
